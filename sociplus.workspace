@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="SociPlus">
+		<Project filename="sociplus/sociplus.cbp" />
+		<Project filename="socidriver_sqlite3/socidriver_sqlite3.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="socidriver_odbc/socidriver_odbc.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="socidriver_postgresql/socidriver_postgresql.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="socidriver_firebird/socidriver_firebird.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="socidriver_oracle/socidriver_oracle.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="socidriver_mysql/socidriver_mysql.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+		<Project filename="test1_c/test1_c.cbp">
+			<Depends filename="sociplus/sociplus.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

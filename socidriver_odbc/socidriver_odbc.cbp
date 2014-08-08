@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="socidriver_odbc" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/libwxsoci_odbc_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+					<Add library="..\bin\Debug\libsociplus.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/libwxsoci_odbc_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+					<Add library="..\bin\Release\libsociplus.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../soci/src/core" />
+		</Compiler>
+		<Linker>
+			<Add library="odbc32" />
+		</Linker>
+		<Unit filename="../soci/src/backends/odbc/blob.cpp" />
+		<Unit filename="../soci/src/backends/odbc/factory.cpp" />
+		<Unit filename="../soci/src/backends/odbc/row-id.cpp" />
+		<Unit filename="../soci/src/backends/odbc/session.cpp" />
+		<Unit filename="../soci/src/backends/odbc/soci-odbc.h" />
+		<Unit filename="../soci/src/backends/odbc/standard-into-type.cpp" />
+		<Unit filename="../soci/src/backends/odbc/standard-use-type.cpp" />
+		<Unit filename="../soci/src/backends/odbc/statement.cpp" />
+		<Unit filename="../soci/src/backends/odbc/utility.h" />
+		<Unit filename="../soci/src/backends/odbc/vector-into-type.cpp" />
+		<Unit filename="../soci/src/backends/odbc/vector-use-type.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

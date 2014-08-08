@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sociplus" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/libsociplus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/libsociplus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../soci/src/core" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="../soci/src/core/backend-loader.cpp" />
+		<Unit filename="../soci/src/core/backend-loader.h" />
+		<Unit filename="../soci/src/core/blob-exchange.h" />
+		<Unit filename="../soci/src/core/blob.cpp" />
+		<Unit filename="../soci/src/core/blob.h" />
+		<Unit filename="../soci/src/core/boost-fusion.h" />
+		<Unit filename="../soci/src/core/boost-gregorian-date.h" />
+		<Unit filename="../soci/src/core/boost-optional.h" />
+		<Unit filename="../soci/src/core/boost-tuple.h" />
+		<Unit filename="../soci/src/core/connection-parameters.cpp" />
+		<Unit filename="../soci/src/core/connection-parameters.h" />
+		<Unit filename="../soci/src/core/connection-pool.cpp" />
+		<Unit filename="../soci/src/core/connection-pool.h" />
+		<Unit filename="../soci/src/core/error.cpp" />
+		<Unit filename="../soci/src/core/error.h" />
+		<Unit filename="../soci/src/core/exchange-traits.h" />
+		<Unit filename="../soci/src/core/into-type.cpp" />
+		<Unit filename="../soci/src/core/into-type.h" />
+		<Unit filename="../soci/src/core/into.h" />
+		<Unit filename="../soci/src/core/once-temp-type.cpp" />
+		<Unit filename="../soci/src/core/once-temp-type.h" />
+		<Unit filename="../soci/src/core/prepare-temp-type.cpp" />
+		<Unit filename="../soci/src/core/prepare-temp-type.h" />
+		<Unit filename="../soci/src/core/procedure.cpp" />
+		<Unit filename="../soci/src/core/procedure.h" />
+		<Unit filename="../soci/src/core/query_transformation.h" />
+		<Unit filename="../soci/src/core/ref-counted-prepare-info.cpp" />
+		<Unit filename="../soci/src/core/ref-counted-prepare-info.h" />
+		<Unit filename="../soci/src/core/ref-counted-statement.cpp" />
+		<Unit filename="../soci/src/core/ref-counted-statement.h" />
+		<Unit filename="../soci/src/core/row-exchange.h" />
+		<Unit filename="../soci/src/core/row.cpp" />
+		<Unit filename="../soci/src/core/row.h" />
+		<Unit filename="../soci/src/core/rowid-exchange.h" />
+		<Unit filename="../soci/src/core/rowid.cpp" />
+		<Unit filename="../soci/src/core/rowid.h" />
+		<Unit filename="../soci/src/core/rowset.h" />
+		<Unit filename="../soci/src/core/session.cpp" />
+		<Unit filename="../soci/src/core/session.h" />
+		<Unit filename="../soci/src/core/soci-backend.h" />
+		<Unit filename="../soci/src/core/soci-config.h" />
+		<Unit filename="../soci/src/core/soci-platform.h" />
+		<Unit filename="../soci/src/core/soci-simple.cpp" />
+		<Unit filename="../soci/src/core/soci-simple.h" />
+		<Unit filename="../soci/src/core/soci.h" />
+		<Unit filename="../soci/src/core/statement.cpp" />
+		<Unit filename="../soci/src/core/statement.h" />
+		<Unit filename="../soci/src/core/transaction.cpp" />
+		<Unit filename="../soci/src/core/transaction.h" />
+		<Unit filename="../soci/src/core/type-conversion-traits.h" />
+		<Unit filename="../soci/src/core/type-conversion.h" />
+		<Unit filename="../soci/src/core/type-holder.h" />
+		<Unit filename="../soci/src/core/type-ptr.h" />
+		<Unit filename="../soci/src/core/unsigned-types.h" />
+		<Unit filename="../soci/src/core/use-type.cpp" />
+		<Unit filename="../soci/src/core/use-type.h" />
+		<Unit filename="../soci/src/core/use.h" />
+		<Unit filename="../soci/src/core/values-exchange.h" />
+		<Unit filename="../soci/src/core/values.cpp" />
+		<Unit filename="../soci/src/core/values.h" />
+		<Unit filename="../soci/src/core/version.h" />
+		<Unit filename="include/soci_backends_config.h" />
+		<Unit filename="include/sociplus_c.h" />
+		<Unit filename="include/sociplus_co.h" />
+		<Unit filename="include/sociplusconnection.h" />
+		<Unit filename="include/sociplusdatatablemodel.h" />
+		<Unit filename="include/sociplusmodel.h" />
+		<Unit filename="include/sociplusmodelcell.h" />
+		<Unit filename="include/sociplusmodelrow.h" />
+		<Unit filename="include/sociplusquery.h" />
+		<Unit filename="include/sociplustablemodel.h" />
+		<Unit filename="src/sociplus_c.cpp" />
+		<Unit filename="src/sociplusconnection.cpp" />
+		<Unit filename="src/sociplusdatatablemodel.cpp" />
+		<Unit filename="src/sociplusmodel.cpp" />
+		<Unit filename="src/sociplusmodelcell.cpp" />
+		<Unit filename="src/sociplusmodelrow.cpp" />
+		<Unit filename="src/sociplusquery.cpp" />
+		<Unit filename="src/sociplustablemodel.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

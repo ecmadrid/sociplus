@@ -1,0 +1,1 @@
+This directory is for MariaDB source under "MariaDB C Client Library" directory.

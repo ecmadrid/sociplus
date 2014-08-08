@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="socidriver_firebird" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/libsociplus_firebird_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+					<Add library="..\bin\Debug\libsociplus.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/libsociplus_firebird_driver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+					<Add library="..\bin\Release\libsociplus.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../soci/src/core" />
+			<Add directory="../firebird/include" />
+		</Compiler>
+		<Linker>
+			<Add library="..\firebird\bin\fbclient.dll" />
+		</Linker>
+		<Unit filename="../soci/src/backends/firebird/blob.cpp" />
+		<Unit filename="../soci/src/backends/firebird/common.cpp" />
+		<Unit filename="../soci/src/backends/firebird/common.h" />
+		<Unit filename="../soci/src/backends/firebird/error-firebird.cpp" />
+		<Unit filename="../soci/src/backends/firebird/error-firebird.h" />
+		<Unit filename="../soci/src/backends/firebird/factory.cpp" />
+		<Unit filename="../soci/src/backends/firebird/row-id.cpp" />
+		<Unit filename="../soci/src/backends/firebird/session.cpp" />
+		<Unit filename="../soci/src/backends/firebird/soci-firebird.h" />
+		<Unit filename="../soci/src/backends/firebird/standard-into-type.cpp" />
+		<Unit filename="../soci/src/backends/firebird/standard-use-type.cpp" />
+		<Unit filename="../soci/src/backends/firebird/statement.cpp" />
+		<Unit filename="../soci/src/backends/firebird/vector-into-type.cpp" />
+		<Unit filename="../soci/src/backends/firebird/vector-use-type.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
