@@ -1,1 +1,1 @@
-This directory is for MariaDB source under "sdk" directory.
+This directory is for Oracle SDK source under "sdk" directory.
