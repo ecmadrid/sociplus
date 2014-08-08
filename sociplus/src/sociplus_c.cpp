@@ -342,7 +342,7 @@ namespace SociPlus
 
     int SociPlusQuery_Execute(SociPlusQuery* instance, const char* query)
     {
-        return instance->Execute(que);
+        return instance->Execute(query);
     }
 
     SociPlusDataTableModel *SociPlusQuery_ExecuteToModel(SociPlusQuery *instance, const char* query)

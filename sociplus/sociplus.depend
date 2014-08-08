@@ -1,1 +1,395 @@
 # depslib dependency file v1.0
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\backend-loader.cpp
+	"backend-loader.h"
+	"error.h"
+	<cassert>
+	<cstdlib>
+	<map>
+	<string>
+	<vector>
+	<stdint.h>
+	"soci_backends_config.h"
+	<windows.h>
+	<pthread.h>
+	<dlfcn.h>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\backend-loader.h
+	"soci-backend.h"
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-backend.h
+	"soci-config.h"
+	"error.h"
+	<cstddef>
+	<map>
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-config.h
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\error.h
+	"soci-config.h"
+	<stdexcept>
+	<string>
+
+1407484641 d:\personal\proyectos\sociplus_git\trunk\sociplus\include\soci_backends_config.h
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\blob.cpp
+	"blob.h"
+	"session.h"
+	<cstddef>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\blob.h
+	"soci-config.h"
+	<cstddef>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\session.h
+	"once-temp-type.h"
+	"query_transformation.h"
+	"connection-parameters.h"
+	<cstddef>
+	<memory>
+	<ostream>
+	<sstream>
+	<string>
+
+1378853046 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\once-temp-type.h
+	"ref-counted-statement.h"
+	"prepare-temp-type.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\ref-counted-statement.h
+	"statement.h"
+	"into-type.h"
+	"use-type.h"
+	<sstream>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\statement.h
+	"into-type.h"
+	"into.h"
+	"use-type.h"
+	"soci-backend.h"
+	"row.h"
+	<cstddef>
+	<string>
+	<map>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\into-type.h
+	"soci-backend.h"
+	"type-ptr.h"
+	"exchange-traits.h"
+	<cstddef>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\type-ptr.h
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\exchange-traits.h
+	"type-conversion-traits.h"
+	"soci-backend.h"
+	<ctime>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\type-conversion-traits.h
+	"soci-backend.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\into.h
+	"into-type.h"
+	"exchange-traits.h"
+	"type-conversion.h"
+	<cstddef>
+	<vector>
+
+1378853058 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\type-conversion.h
+	"type-conversion-traits.h"
+	"into-type.h"
+	"use-type.h"
+	<cassert>
+	<cstddef>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\use-type.h
+	"soci-backend.h"
+	"type-ptr.h"
+	"exchange-traits.h"
+	<cstddef>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\row.h
+	"type-holder.h"
+	"soci-backend.h"
+	"type-conversion.h"
+	<cassert>
+	<cstddef>
+	<map>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\type-holder.h
+	<typeinfo>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\prepare-temp-type.h
+	"into-type.h"
+	"use-type.h"
+	"ref-counted-prepare-info.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\ref-counted-prepare-info.h
+	"ref-counted-statement.h"
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\query_transformation.h
+	"soci-config.h"
+	<functional>
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\connection-parameters.h
+	"soci-config.h"
+	<map>
+	<string>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\connection-parameters.cpp
+	"connection-parameters.h"
+	"soci-backend.h"
+	"backend-loader.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\connection-pool.cpp
+	"connection-pool.h"
+	"error.h"
+	"session.h"
+	<vector>
+	<utility>
+	<pthread.h>
+	<sys/time.h>
+	<errno.h>
+	<Windows.h>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\connection-pool.h
+	"soci-config.h"
+	<cstddef>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\error.cpp
+	"error.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\into-type.cpp
+	"into-type.h"
+	"statement.h"
+
+1378853046 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\once-temp-type.cpp
+	"once-temp-type.h"
+	"ref-counted-statement.h"
+	"session.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\prepare-temp-type.cpp
+	"prepare-temp-type.h"
+	"ref-counted-prepare-info.h"
+	"session.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\procedure.cpp
+	"procedure.h"
+	"statement.h"
+	"prepare-temp-type.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\procedure.h
+	"statement.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\ref-counted-prepare-info.cpp
+	"ref-counted-prepare-info.h"
+	"session.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\ref-counted-statement.cpp
+	"ref-counted-statement.h"
+	"session.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\row.cpp
+	"row.h"
+	<cstddef>
+	<cctype>
+	<sstream>
+	<string>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\rowid.cpp
+	"rowid.h"
+	"session.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\rowid.h
+	"soci-config.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\session.cpp
+	"session.h"
+	"connection-parameters.h"
+	"connection-pool.h"
+	"soci-backend.h"
+	"query_transformation.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-simple.cpp
+	"soci-simple.h"
+	"soci.h"
+	<cstddef>
+	<cstdio>
+	<ctime>
+	<exception>
+	<map>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-simple.h
+	"soci-config.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci.h
+	"backend-loader.h"
+	"blob.h"
+	"blob-exchange.h"
+	"connection-pool.h"
+	"error.h"
+	"exchange-traits.h"
+	"into.h"
+	"into-type.h"
+	"once-temp-type.h"
+	"prepare-temp-type.h"
+	"procedure.h"
+	"ref-counted-prepare-info.h"
+	"ref-counted-statement.h"
+	"row.h"
+	"row-exchange.h"
+	"rowid.h"
+	"rowid-exchange.h"
+	"rowset.h"
+	"session.h"
+	"soci-backend.h"
+	"soci-config.h"
+	"soci-platform.h"
+	"statement.h"
+	"transaction.h"
+	"type-conversion.h"
+	"type-conversion-traits.h"
+	"type-holder.h"
+	"type-ptr.h"
+	"unsigned-types.h"
+	"use.h"
+	"use-type.h"
+	"values.h"
+	"values-exchange.h"
+	<boost/version.hpp>
+	"boost-fusion.h"
+	"boost-optional.h"
+	"boost-tuple.h"
+	"boost-gregorian-date.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\blob-exchange.h
+	"blob.h"
+	"into-type.h"
+	"use-type.h"
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\row-exchange.h
+	"into-type.h"
+	"exchange-traits.h"
+	"row.h"
+	"statement.h"
+	<cstddef>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\rowid-exchange.h
+	"rowid.h"
+	"into-type.h"
+	"use-type.h"
+	"exchange-traits.h"
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\rowset.h
+	"statement.h"
+	<iterator>
+	<memory>
+
+1378853058 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-platform.h
+	<stdlib.h>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\transaction.h
+	"session.h"
+	"soci-config.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\unsigned-types.h
+	"type-conversion-traits.h"
+	<limits>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\use.h
+	"use-type.h"
+	"exchange-traits.h"
+	"type-conversion.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\values.h
+	"statement.h"
+	"into-type.h"
+	"use-type.h"
+	<cstddef>
+	<map>
+	<sstream>
+	<string>
+	<utility>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\values-exchange.h
+	"values.h"
+	"into-type.h"
+	"use-type.h"
+	"row-exchange.h"
+	<cstddef>
+	<string>
+	<vector>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\boost-fusion.h
+	"values.h"
+	"type-conversion-traits.h"
+	<boost/fusion/container/vector.hpp>
+	<boost/fusion/sequence/intrinsic/at.hpp>
+	<boost/fusion/sequence/intrinsic/size.hpp>
+	<boost/fusion/include/at.hpp>
+	<boost/fusion/support/is_sequence.hpp>
+	<boost/preprocessor/repetition/repeat.hpp>
+	<boost/preprocessor/repetition/repeat_from_to.hpp>
+	<boost/utility/enable_if.hpp>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\boost-optional.h
+	"type-conversion-traits.h"
+	<boost/optional.hpp>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\boost-tuple.h
+	"values.h"
+	"type-conversion-traits.h"
+	<boost/tuple/tuple.hpp>
+	"boost-fusion.h"
+	<boost/fusion/adapted/boost_tuple.hpp>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\boost-gregorian-date.h
+	"type-conversion-traits.h"
+	<boost/date_time/gregorian/gregorian_types.hpp>
+	<boost/date_time/gregorian/conversion.hpp>
+	<ctime>
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\statement.cpp
+	"statement.h"
+	"session.h"
+	"into-type.h"
+	"use-type.h"
+	"values.h"
+	<ctime>
+	<cctype>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\transaction.cpp
+	"transaction.h"
+	"error.h"
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\use-type.cpp
+	"use-type.h"
+	"statement.h"
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\core\values.cpp
+	"values.h"
+	"row.h"
+	<cstddef>
+	<map>
+	<sstream>
+	<string>
+
