@@ -20,8 +20,5 @@
 		<Project filename="socidriver_mysql/socidriver_mysql.cbp">
 			<Depends filename="sociplus/sociplus.cbp" />
 		</Project>
-		<Project filename="test1_c/test1_c.cbp">
-			<Depends filename="sociplus/sociplus.cbp" />
-		</Project>
 	</Workspace>
 </CodeBlocks_workspace_file>
