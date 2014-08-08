@@ -21,7 +21,7 @@
 				<Linker>
 					<Add library="user32" />
 					<Add library="..\bin\Debug\libsociplus.a" />
-					<Add library="..\mysql\MariaDB C Client Library\lib\debug\libmariadb.lib" />
+					<Add library="..\dbsources\mysql\MariaDB C Client Library\lib\debug\libmariadb.lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -40,13 +40,13 @@
 					<Add option="-s" />
 					<Add library="user32" />
 					<Add library="..\bin\Debug\libsociplus.a" />
-					<Add library="..\mysql\MariaDB C Client Library\lib\libmariadb.lib" />
+					<Add library="..\dbsources\mysql\MariaDB C Client Library\lib\libmariadb.lib" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add directory="../soci/src/core" />
-			<Add directory="../mysql/MariaDB C Client Library/include" />
+			<Add directory="../dbsources/mysql/MariaDB C Client Library/include" />
 		</Compiler>
 		<Unit filename="../soci/src/backends/mysql/blob.cpp" />
 		<Unit filename="../soci/src/backends/mysql/common.cpp" />

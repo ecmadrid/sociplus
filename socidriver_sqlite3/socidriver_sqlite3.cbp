@@ -44,7 +44,7 @@
 		</Build>
 		<Compiler>
 			<Add directory="../soci/src/core" />
-			<Add directory="../sqlite" />
+			<Add directory="../dbsources/sqlite" />
 		</Compiler>
 		<Unit filename="../soci/src/backends/sqlite3/blob.cpp" />
 		<Unit filename="../soci/src/backends/sqlite3/common.cpp" />

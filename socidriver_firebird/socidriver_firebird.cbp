@@ -44,10 +44,10 @@
 		</Build>
 		<Compiler>
 			<Add directory="../soci/src/core" />
-			<Add directory="../firebird/include" />
+			<Add directory="../dbsources/firebird/include" />
 		</Compiler>
 		<Linker>
-			<Add library="..\firebird\bin\fbclient.dll" />
+			<Add library="..\dbsources\firebird\bin\fbclient.dll" />
 		</Linker>
 		<Unit filename="../soci/src/backends/firebird/blob.cpp" />
 		<Unit filename="../soci/src/backends/firebird/common.cpp" />

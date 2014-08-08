@@ -43,11 +43,11 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add directory="../pgsql/include" />
+			<Add directory="../dbsources/pgsql/include" />
 			<Add directory="../soci/src/core" />
 		</Compiler>
 		<Linker>
-			<Add library="..\pgsql\lib\libpq.lib" />
+			<Add library="..\dbsources\pgsql\lib\libpq.lib" />
 		</Linker>
 		<Unit filename="../soci/src/backends/postgresql/blob.cpp" />
 		<Unit filename="../soci/src/backends/postgresql/common.cpp" />

@@ -44,10 +44,10 @@
 		</Build>
 		<Compiler>
 			<Add directory="../soci/src/core" />
-			<Add directory="../oracle/sdk/include" />
+			<Add directory="../dbsources/oracle/sdk/include" />
 		</Compiler>
 		<Linker>
-			<Add library="..\oracle\sdk\lib\msvc\oci.lib" />
+			<Add library="..\dbsources\oracle\sdk\lib\msvc\oci.lib" />
 		</Linker>
 		<Unit filename="../soci/src/backends/oracle/blob.cpp" />
 		<Unit filename="../soci/src/backends/oracle/error.cpp" />
