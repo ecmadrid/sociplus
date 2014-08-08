@@ -1,0 +1,77 @@
+[OPTIONS]
+Compiled file=sociplus.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=SociPlus
+
+[WINDOWS]
+main="SociPlus","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+soci__backends__config_8h_source.html
+sociplus__c_8h_source.html
+sociplus__co_8h_source.html
+sociplusconnection_8h_source.html
+sociplusdatatablemodel_8h_source.html
+sociplusmodel_8h_source.html
+sociplusmodelcell_8h_source.html
+sociplusmodelrow_8h_source.html
+sociplusquery_8h_source.html
+sociplustablemodel_8h_source.html
+version_8h_source.html
+class_soci_plus_1_1_soci_plus_connection.html
+class_soci_plus_1_1_soci_plus_connection-members.html
+class_soci_plus_1_1_soci_plus_data_table_model.html
+class_soci_plus_1_1_soci_plus_data_table_model-members.html
+class_soci_plus_1_1_soci_plus_model.html
+class_soci_plus_1_1_soci_plus_model-members.html
+class_soci_plus_1_1_soci_plus_model_cell.html
+class_soci_plus_1_1_soci_plus_model_cell-members.html
+class_soci_plus_1_1_soci_plus_model_row.html
+class_soci_plus_1_1_soci_plus_model_row-members.html
+class_soci_plus_1_1_soci_plus_query.html
+class_soci_plus_1_1_soci_plus_query-members.html
+class_soci_plus_1_1_soci_plus_table_model.html
+class_soci_plus_1_1_soci_plus_table_model-members.html
+dir_2c525a6f47929018fb6b84c62af18ab5.html
+dir_9c5b3d5fd8cd7b323aefb8ff758a6767.html
+dir_838c748f3d693cc54b40264f000de76d.html
+index.html
+annotated.html
+classes.html
+hierarchy.html
+files.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+ftv2blank.png
+ftv2doc.png
+ftv2folderclosed.png
+ftv2folderopen.png
+ftv2lastnode.png
+ftv2link.png
+ftv2mlastnode.png
+ftv2mnode.png
+ftv2node.png
+ftv2plastnode.png
+ftv2pnode.png
+ftv2vertline.png
+ftv2splitbar.png
+class_soci_plus_1_1_soci_plus_data_table_model.png
+class_soci_plus_1_1_soci_plus_model.png
+class_soci_plus_1_1_soci_plus_table_model.png
