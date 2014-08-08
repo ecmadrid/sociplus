@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
+	<File name="include\sociplusquery.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2588" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="include\sociplustablemodel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="268" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="src\sociplus_c.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="9504" topLine="319" />
@@ -14,6 +24,11 @@
 	<File name="src\sociplusdatatablemodel.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="3035" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="..\soci\src\core\backend-loader.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="496" topLine="15" />
 		</Cursor>
 	</File>
 	<File name="src\sociplusmodel.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -36,14 +51,14 @@
 			<Cursor1 position="2487" topLine="44" />
 		</Cursor>
 	</File>
-	<File name="..\soci\src\core\query_transformation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="283" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="src\sociplustablemodel.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2505" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="..\soci\src\core\query_transformation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="283" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="..\soci\src\core\row.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -61,7 +76,7 @@
 			<Cursor1 position="7171" topLine="136" />
 		</Cursor>
 	</File>
-	<File name="include\sociplus_co.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\sociplus_co.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="2823" topLine="63" />
 		</Cursor>
@@ -69,11 +84,6 @@
 	<File name="include\sociplusconnection.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="268" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\soci\src\core\soci-config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="251" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\sociplusdatatablemodel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -91,24 +101,14 @@
 			<Cursor1 position="267" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="..\soci\src\core\soci-config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="251" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="include\sociplusmodelrow.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="266" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\sociplusquery.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2588" topLine="44" />
-		</Cursor>
-	</File>
-	<File name="include\sociplustablemodel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="268" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="..\soci\src\core\backend-loader.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="496" topLine="15" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
