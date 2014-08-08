@@ -57,6 +57,21 @@ namespace SociPlus
         //dtor
     }
 
+    bool SociPlusQuery::Execute(string query)
+    {
+        try
+        {
+            session& sql = m_connection->GetSession();
+            sql << query;
+        }
+        catch(...)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
     SociPlusDataTableModel *SociPlusQuery::ExecuteToModel(string query)
     {
         session& sql = m_connection->GetSession();

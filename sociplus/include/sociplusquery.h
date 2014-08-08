@@ -67,6 +67,7 @@ public:
     SociPlusQuery(SociPlusConnection *connection);
     virtual ~SociPlusQuery();
 
+    virtual bool Execute(string query);
     virtual SociPlusDataTableModel *ExecuteToModel(string query);
 protected:
 private:

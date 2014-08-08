@@ -340,6 +340,11 @@ namespace SociPlus
         instance = 0;
     }
 
+    int SociPlusQuery_Execute(SociPlusQuery* instance, const char* query)
+    {
+        return instance->Execute(que);
+    }
+
     SociPlusDataTableModel *SociPlusQuery_ExecuteToModel(SociPlusQuery *instance, const char* query)
     {
         return instance->ExecuteToModel(query);

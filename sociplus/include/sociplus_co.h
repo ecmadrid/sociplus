@@ -142,6 +142,7 @@ SociPlusModelRow *SociPlusDataTableModel_GetTypes(SociPlusDataTableModel *instan
 
 SociPlusQuery *SociPlusQuery_new(SociPlusConnection *connection);
 void SociPlusQuery_delete(SociPlusQuery *instance);
+int SociPlusQuery_Execute(SociPlusQuery *instance, const char* query);
 SociPlusDataTableModel *SociPlusQuery_ExecuteToModel(SociPlusQuery *instance, const char* query);
 
 /********************************
