@@ -3,7 +3,7 @@ sociplus
 
 Database classes based on SOCI for C and C++
 
-Copyright (c) 2014 Juan Sánchez Rangel
+Copyright (c) 2014 Juan Sánchez Rangel.
 
 Ready to open with CodeBlocks in MS Windows.
 
