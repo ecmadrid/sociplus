@@ -46,6 +46,10 @@
 			<Add directory="../soci/src/core" />
 			<Add directory="../dbsources/sqlite" />
 		</Compiler>
+		<Unit filename="../dbsources/sqlite/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dbsources/sqlite/sqlite3.h" />
 		<Unit filename="../soci/src/backends/sqlite3/blob.cpp" />
 		<Unit filename="../soci/src/backends/sqlite3/common.cpp" />
 		<Unit filename="../soci/src/backends/sqlite3/common.h" />
@@ -58,10 +62,6 @@
 		<Unit filename="../soci/src/backends/sqlite3/statement.cpp" />
 		<Unit filename="../soci/src/backends/sqlite3/vector-into-type.cpp" />
 		<Unit filename="../soci/src/backends/sqlite3/vector-use-type.cpp" />
-		<Unit filename="../sqlite/sqlite3.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="../sqlite/sqlite3.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
