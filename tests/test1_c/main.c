@@ -14,7 +14,6 @@ int main()
     SociPlusQuery_Execute(query, "CREATE TABLE TEST (ID  INTEGER, DATA TEXT)");
 
     SociPlusConnection_Begin(connection);
-
     SociPlusQuery_Execute(query, "INSERT INTO TEST (ID, DATA) VALUES (1, 'Data1')");
     SociPlusQuery_Execute(query, "INSERT INTO TEST (ID, DATA) VALUES (2, 'Data2')");
     SociPlusQuery_Execute(query, "INSERT INTO TEST (ID, DATA) VALUES (3, 'Data3')");
