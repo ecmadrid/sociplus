@@ -47,12 +47,12 @@ namespace SociPlus
 {
     /* SociPlusConnection */
 
-    SociPlusConnection *SociPlusConnection_new(const char* driver, const char* connectionString)
+    SociPlusConnection *SociPlusConnection_New(const char* driver, const char* connectionString)
     {
         return new SociPlusConnection(driver, connectionString);
     }
 
-    void SociPlusConnection_delete(SociPlusConnection *instance)
+    void SociPlusConnection_Delete(SociPlusConnection *instance)
     {
         delete instance;
         instance = 0;
@@ -94,12 +94,12 @@ namespace SociPlus
 
     /* SociPlusModelCell */
 
-    SociPlusModelCell *SociPlusModelCell_new(SociPlusModelRow *parent)
+    SociPlusModelCell *SociPlusModelCell_New(SociPlusModelRow *parent)
     {
         return new SociPlusModelCell(parent);
     }
 
-    void SociPlusModelCell_delete(SociPlusModelCell *instance)
+    void SociPlusModelCell_Delete(SociPlusModelCell *instance)
     {
         delete instance;
         instance = 0;
@@ -147,12 +147,12 @@ namespace SociPlus
 
     /* SociPlusModelRow */
 
-    SociPlusModelRow *SociPlusModelRow_new(SociPlusModel *parent)
+    SociPlusModelRow *SociPlusModelRow_New(SociPlusModel *parent)
     {
         return new SociPlusModelRow(parent);
     }
 
-    void SociPlusModelRow_delete(SociPlusModelRow *instance)
+    void SociPlusModelRow_Delete(SociPlusModelRow *instance)
     {
         delete instance;
         instance = 0;
@@ -195,12 +195,12 @@ namespace SociPlus
 
     /* SociPlusModel */
 
-    SociPlusModel *SociPlusModel_new(SociPlusModelCell *parent = 0)
+    SociPlusModel *SociPlusModel_New(SociPlusModelCell *parent = 0)
     {
         return new SociPlusModel(parent);
     }
 
-    void SociPlusModel_delete(SociPlusModel* instance)
+    void SociPlusModel_Delete(SociPlusModel* instance)
     {
         delete instance;
         instance = 0;
@@ -268,12 +268,12 @@ namespace SociPlus
 
     /* SociPlusTableModel */
 
-    SociPlusTableModel *SociPlusTableModel_new(int numCols)
+    SociPlusTableModel *SociPlusTableModel_New(int numCols)
     {
         return new SociPlusTableModel(numCols);
     }
 
-    void SociPlusTableModel_delete(SociPlusTableModel *instance)
+    void SociPlusTableModel_Delete(SociPlusTableModel *instance)
     {
         delete instance;
         instance = 0;
@@ -286,12 +286,12 @@ namespace SociPlus
 
     /* SociPlusDataTableModel */
 
-    SociPlusDataTableModel *SociPlusDataTableModel_new(int numRows)
+    SociPlusDataTableModel *SociPlusDataTableModel_New(int numRows)
     {
         return new SociPlusDataTableModel(numRows);
     }
 
-    void SociPlusDataTableModel_delete(SociPlusDataTableModel *instance)
+    void SociPlusDataTableModel_Delete(SociPlusDataTableModel *instance)
     {
         delete instance;
         instance = 0;
@@ -329,12 +329,12 @@ namespace SociPlus
 
     /* SociPlusQuery */
 
-    SociPlusQuery *SociPlusQuery_new(SociPlusConnection *connection)
+    SociPlusQuery *SociPlusQuery_New(SociPlusConnection *connection)
     {
         return new SociPlusQuery(connection);
     }
 
-    void SociPlusQuery_delete(SociPlusQuery *instance)
+    void SociPlusQuery_Delete(SociPlusQuery *instance)
     {
         delete instance;
         instance = 0;

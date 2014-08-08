@@ -1,1 +1,177 @@
 # depslib dependency file v1.0
+1407422600 source:d:\personal\proyectos\sociplus_git\trunk\dbsources\sqlite\sqlite3.c
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/file.h>
+	<sys/param.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<tcl.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+
+1378853046 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\blob.cpp
+	"soci-sqlite3.h"
+	<cstring>
+
+1378853058 d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\soci-sqlite3.h
+	<cstdarg>
+	<vector>
+	"soci-backend.h"
+	<sqlite3.h>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-backend.h
+	"soci-config.h"
+	"error.h"
+	<cstddef>
+	<map>
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-config.h
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\error.h
+	"soci-config.h"
+	<stdexcept>
+	<string>
+
+1407422600 d:\personal\proyectos\sociplus_git\trunk\dbsources\sqlite\sqlite3.h
+	<stdarg.h>
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\common.cpp
+	<soci-platform.h>
+	"common.h"
+	"soci-backend.h"
+	<cstdlib>
+	<ctime>
+
+1378853058 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\soci-platform.h
+	<stdlib.h>
+
+1378853058 d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\common.h
+	<error.h>
+	<cstddef>
+	<cstdio>
+	<cstring>
+	<ctime>
+	<vector>
+	<limits>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\factory.cpp
+	"soci-sqlite3.h"
+	<backend-loader.h>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\backend-loader.h
+	"soci-backend.h"
+	<string>
+	<vector>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\row-id.cpp
+	"soci-sqlite3.h"
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\session.cpp
+	"soci-sqlite3.h"
+	<connection-parameters.h>
+	<sstream>
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\connection-parameters.h
+	"soci-config.h"
+	<map>
+	<string>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\standard-into-type.cpp
+	<soci-platform.h>
+	"soci-sqlite3.h"
+	"rowid.h"
+	"common.h"
+	"blob.h"
+	<cstdlib>
+	<ctime>
+	<string>
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\rowid.h
+	"soci-config.h"
+
+1377121212 d:\personal\proyectos\sociplus_git\trunk\soci\src\core\blob.h
+	"soci-config.h"
+	<cstddef>
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\standard-use-type.cpp
+	"soci-sqlite3.h"
+	<soci-platform.h>
+	"rowid.h"
+	"blob.h"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<limits>
+	<sstream>
+	<string>
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\statement.cpp
+	"soci-sqlite3.h"
+	<algorithm>
+	<sstream>
+	<string>
+
+1377121212 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\vector-into-type.cpp
+	<soci-platform.h>
+	"soci-sqlite3.h"
+	"common.h"
+	<cassert>
+	<cstddef>
+	<cstdlib>
+	<ctime>
+	<string>
+	<vector>
+
+1378853058 source:d:\personal\proyectos\sociplus_git\trunk\soci\src\backends\sqlite3\vector-use-type.cpp
+	"soci-sqlite3.h"
+	<soci-platform.h>
+	"common.h"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<limits>
+	<sstream>
+

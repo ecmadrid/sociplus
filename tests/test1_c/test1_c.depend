@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1407499804 source:d:\personal\proyectos\sociplus_git\trunk\tests\test1_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<sociplus_co.h>
+
+1407498855 d:\personal\proyectos\sociplus_git\trunk\sociplus\include\sociplus_co.h
+

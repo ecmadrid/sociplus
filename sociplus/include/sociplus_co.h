@@ -69,8 +69,8 @@ typedef struct SociPlusQuery SociPlusQuery;
 
 /* SociPlusConnection */
 
-SociPlusConnection *SociPlusConnection_new(const char* driver, const char* connectionString);
-void SociPlusConnection_delete(SociPlusConnection *instance);
+SociPlusConnection *SociPlusConnection_New(const char* driver, const char* connectionString);
+void SociPlusConnection_Delete(SociPlusConnection *instance);
 void SociPlusConnection_Open(SociPlusConnection *instance);
 void SociPlusConnection_Close(SociPlusConnection *instance);
 void SociPlusConnection_Begin(SociPlusConnection *instance);
@@ -81,8 +81,8 @@ const char *SociPlusConnection_GetConnectionString(SociPlusConnection *instance)
 
 /* SociPlusModelCell */
 
-SociPlusModelCell *SociPlusModelCell_new(SociPlusModelRow *parent);
-void SociPlusModelCell_delete(SociPlusModelCell *instance);
+SociPlusModelCell *SociPlusModelCell_New(SociPlusModelRow *parent);
+void SociPlusModelCell_Delete(SociPlusModelCell *instance);
 int SociPlusModelCell_AddModel(SociPlusModelCell *instance, SociPlusModel *model);
 SociPlusModel *SociPlusModelCell_GetModelAt(SociPlusModelCell *instance, int pos);
 SociPlusModel *SociPlusModelCell_DetachModelAt(SociPlusModelCell *instance, int pos);
@@ -94,8 +94,8 @@ void SociPlusModelCell_Clear(SociPlusModelCell *instance);
 
 /* SociPlusModelRow */
 
-SociPlusModelRow *SociPlusModelRow_new(SociPlusModel *parent);
-void SociPlusModelRow_delete(SociPlusModelRow *instance);
+SociPlusModelRow *SociPlusModelRow_New(SociPlusModel *parent);
+void SociPlusModelRow_Delete(SociPlusModelRow *instance);
 int SociPlusModelRow_AddModel(SociPlusModelRow *instance, SociPlusModel *model, int col);
 SociPlusModelCell *SociPlusModelRow_AddCell(SociPlusModelRow *instance);
 SociPlusModelCell *SociPlusModelRow_GetCellAt(SociPlusModelRow *instance, int pos);
@@ -106,8 +106,8 @@ void SociPlusModelRow_Clear(SociPlusModelRow *instance);
 
 /* SociPlusModel */
 
-SociPlusModel *SociPlusModel_new(SociPlusModelCell *parent);
-void SociPlusModel_delete(SociPlusModel* instance);
+SociPlusModel *SociPlusModel_New(SociPlusModelCell *parent);
+void SociPlusModel_Delete(SociPlusModel* instance);
 SociPlusModelRow *SociPlusModel_AddRow(SociPlusModel* instance);
 int SociPlusModel_AddRowFromRow(SociPlusModel* instance, SociPlusModelRow *row);
 int SociPlusModel_RemoveRowAt(SociPlusModel* instance, int pos);
@@ -123,14 +123,14 @@ void SociPlusModel_Clear(SociPlusModel* instance);
 
 /* SociPlusTableModel */
 
-SociPlusTableModel *SociPlusTableModel_new(int numCols);
-void SociPlusTableModel_delete(SociPlusTableModel *instance);
+SociPlusTableModel *SociPlusTableModel_New(int numCols);
+void SociPlusTableModel_Delete(SociPlusTableModel *instance);
 SociPlusModelRow *SociPlusTableModel_AddRow(SociPlusTableModel *instance);
 
 /* SociPlusDataTableModel */
 
-SociPlusDataTableModel *SociPlusDataTableModel_new(int numRows);
-void SociPlusDataTableModel_delete(SociPlusDataTableModel *instance);
+SociPlusDataTableModel *SociPlusDataTableModel_New(int numRows);
+void SociPlusDataTableModel_Delete(SociPlusDataTableModel *instance);
 int SociPlusDataTableModel_RemoveRowAt(SociPlusDataTableModel *instance, int pos);
 SociPlusModelRow *SociPlusDataTableModel_GetRowAt(SociPlusDataTableModel *instance, int pos);
 int SociPlusDataTableModel_GetRowCount(SociPlusDataTableModel *instance);
@@ -140,8 +140,8 @@ SociPlusModelRow *SociPlusDataTableModel_GetTypes(SociPlusDataTableModel *instan
 
 /* SociPlusQuery */
 
-SociPlusQuery *SociPlusQuery_new(SociPlusConnection *connection);
-void SociPlusQuery_delete(SociPlusQuery *instance);
+SociPlusQuery *SociPlusQuery_New(SociPlusConnection *connection);
+void SociPlusQuery_Delete(SociPlusQuery *instance);
 int SociPlusQuery_Execute(SociPlusQuery *instance, const char* query);
 SociPlusDataTableModel *SociPlusQuery_ExecuteToModel(SociPlusQuery *instance, const char* query);
 

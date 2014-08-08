@@ -62,7 +62,7 @@ namespace SociPlus
         try
         {
             session& sql = m_connection->GetSession();
-            sql << query;
+            sql.once << query;
         }
         catch(...)
         {
