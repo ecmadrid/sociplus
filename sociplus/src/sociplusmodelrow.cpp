@@ -111,4 +111,14 @@ namespace SociPlus
 
         return true;
     }
+
+    void SociPlusModelRow::SetState(string value)
+    {
+        m_state = value;
+    }
+
+    string SociPlusModelRow::GetState()
+    {
+        return m_state;
+    }
 }

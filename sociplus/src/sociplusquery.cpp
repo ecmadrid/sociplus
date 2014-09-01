@@ -132,7 +132,7 @@ namespace SociPlus
                 }
 
                 SociPlusModelRow *newRow = model->AddRow();
-
+                newRow->SetState(STATE_SELECTED);
 
                 for(std::size_t i = 0; i != row.size(); ++i)
                 {

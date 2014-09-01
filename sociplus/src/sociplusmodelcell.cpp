@@ -48,6 +48,9 @@ namespace SociPlus
     {
         //ctor
         m_parent = parent;
+        m_data = "";
+        m_origData = "";
+        m_firstData = true;
     }
 
     SociPlusModelCell::~SociPlusModelCell()
@@ -66,11 +69,34 @@ namespace SociPlus
     void SociPlusModelCell::SetData(string data)
     {
         m_data = data;
+        if (m_firstData == true)
+        {
+            m_origData = m_data;
+            m_firstData = false;
+        }
     }
 
     string SociPlusModelCell::GetData()
     {
         return m_data;
+    }
+
+    string SociPlusModelCell::GetOrigData()
+    {
+        return m_origData;
+    }
+
+    void SociPlusModelCell::RestoreOrigData()
+    {
+        m_data = m_origData;
+    }
+
+    bool SociPlusModelCell::DataChanged()
+    {
+        if (m_data != m_origData)
+            return true;
+
+        return false;
     }
 
     SociPlusModel *SociPlusModelCell::GetModelAt(int pos)

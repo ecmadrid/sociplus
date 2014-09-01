@@ -140,6 +140,21 @@ namespace SociPlus
         return instance->FindModelPos(model);
     }
 
+    const char* SociPlusModelCell_GetOrigData(SociPlusModelCell *instance)
+    {
+        return instance->GetOrigData().c_str();
+    }
+
+    void SociPlusModelCell_RestoreOrigData(SociPlusModelCell *instance)
+    {
+        return instance->RestoreOrigData();
+    }
+
+    int SociPlusModelCell_DataChanged(SociPlusModelCell *instance)
+    {
+        return instance->DataChanged();
+    }
+
     void SociPlusModelCell_Clear(SociPlusModelCell *instance)
     {
         return instance->Clear();
@@ -186,6 +201,16 @@ namespace SociPlus
     int SociPlusModelRow_Move(SociPlusModelRow *instance, SociPlusModel *model)
     {
         return instance->Move(model);
+    }
+
+    void SociPlusModelRow_SetState(SociPlusModelRow *instance, const char* value)
+    {
+        return instance->SetState(value);
+    }
+
+    const char* SociPlusModelRow_GetState(SociPlusModelRow *instance)
+    {
+        return instance->GetState().c_str();
     }
 
     void SociPlusModelRow_Clear(SociPlusModelRow *instance)

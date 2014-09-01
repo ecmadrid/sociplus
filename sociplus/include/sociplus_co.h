@@ -90,7 +90,11 @@ int SociPlusModelCell_GetModelCount(SociPlusModelCell *instance);
 void SociPlusModelCell_SetData(SociPlusModelCell *instance, const char* data);
 const char* SociPlusModelCell_GetData(SociPlusModelCell *instance);
 int SociPlusModelCell_FindModelPos(SociPlusModelCell *instance, SociPlusModel *model);
+const char* SociPlusModelCell_GetOrigData(SociPlusModelCell *instance);
+void SociPlusModelCell_RestoreOrigData(SociPlusModelCell *instance);
+int SociPlusModelCell_DataChanged(SociPlusModelCell *instance);
 void SociPlusModelCell_Clear(SociPlusModelCell *instance);
+
 
 /* SociPlusModelRow */
 
@@ -102,6 +106,8 @@ SociPlusModelCell *SociPlusModelRow_GetCellAt(SociPlusModelRow *instance, int po
 int SociPlusModelRow_GetCellCount(SociPlusModelRow *instance);
 void SociPlusModelRow_SetParent(SociPlusModelRow *instance, SociPlusModel *parent);
 int SociPlusModelRow_Move(SociPlusModelRow *instance, SociPlusModel *model);
+void SociPlusModelRow_SetState(SociPlusModelRow *instance, const char* value);
+const char* SociPlusModelRow_GetState(SociPlusModelRow *instance);
 void SociPlusModelRow_Clear(SociPlusModelRow *instance);
 
 /* SociPlusModel */

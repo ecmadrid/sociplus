@@ -42,12 +42,24 @@
 #ifndef SOCIPLUSMODELROW_H
 #define SOCIPLUSMODELROW_H
 
+#include <string>
 #include <vector>
 
 using namespace std;
 
 namespace SociPlus
 {
+
+/* Row state definitions */
+
+#define STATE_UNKNOWN "unknown"
+#define STATE_SELECTED "selected"
+#define STATE_INSERTED "inserted"
+#define STATE_UPDATED "updated"
+#define STATE_DELETED "deleted"
+
+/* End of row state definitions */
+
 class SociPlusModel;
 class SociPlusModelCell;
 
@@ -63,10 +75,13 @@ public:
     int GetCellCount();
     void SetParent(SociPlusModel *parent);
     bool Move(SociPlusModel *model);
+    void SetState(string value);
+    string GetState();
 
     void Clear();
 protected:
     SociPlusModel *m_parent;
+    string m_state;
     vector<SociPlusModelCell *>m_cells;
 private:
 };

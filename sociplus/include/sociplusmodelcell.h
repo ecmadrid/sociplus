@@ -64,12 +64,17 @@ public:
     int GetModelCount();
     void SetData(string data);
     string GetData();
+    string GetOrigData();
+    void RestoreOrigData();
+    bool DataChanged();
     int FindModelPos(SociPlusModel *model);
 
     void Clear();
 protected:
     SociPlusModelRow *m_parent;
     string m_data;
+    string m_origData;
+    bool m_firstData;
     vector<SociPlusModel *>m_models;
 private:
 };
